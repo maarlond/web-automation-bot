@@ -23,7 +23,7 @@ Este projeto realiza buscas automatizadas na Amazon, coletando informações com
 - Alertas automáticos (Telegram / E-mail)
 - Execução agendada (cron)
 - Exportação em JSON
-- Interface para o usuário (futuro)
+- Interface para o usuário (Desenvolvendo)
 
 ---
 
@@ -49,5 +49,9 @@ pip install -r requirements.txt
 # Instalar browsers do Playwright
 playwright install
 
+# Instalar dependencias streamlit
+pip install streamlit
+
 # Executar o projeto
-python src/main.py
+python amazon_bot.py
+streamlit run app.py
