@@ -13,12 +13,14 @@ Este projeto realiza buscas automatizadas na Amazon, coletando informações com
 ## ⚙️ Funcionalidades
 
 ### ✅ Implementadas
+
 - Busca de produtos na Amazon
 - Coleta de título e preço
 - Exibição dos resultados no terminal
 - Exportação para CSV
 
 ### 🚧 Em desenvolvimento
+
 - Sistema de logs
 - Alertas automáticos (Telegram / E-mail)
 - Execução agendada (cron)
@@ -30,7 +32,9 @@ Este projeto realiza buscas automatizadas na Amazon, coletando informações com
 ## 🧰 Tecnologias utilizadas
 
 - Python
-- Playwright
+- Playwright (Automação)
+- Streamlit (Interface)
+- Pandas (Tabelas)
 
 ---
 
@@ -55,3 +59,4 @@ pip install streamlit
 # Executar o projeto
 python amazon_bot.py
 streamlit run app.py
+```
